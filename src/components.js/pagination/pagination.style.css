@@ -1,0 +1,37 @@
+.pagination {
+  width: 100%;
+  padding: 10px;
+}
+
+.pages_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  gap: 20px;
+  color: white;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.page_link {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.active_link .page_link {
+  background-color: var(--isseus-color);
+  color: white;
+}
+/*# sourceMappingURL=pagination.style.css.map */

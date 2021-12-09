@@ -1,0 +1,33 @@
+.error_container {
+  width: 100%;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.error_container div {
+  display: -ms-grid;
+  display: grid;
+  gap: 50px;
+}
+
+.error_container div h2 {
+  color: var(--main-font-color);
+  text-shadow: 2px 2px 4px var(--main-font-color);
+  font-size: 2em;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+}
+
+.error_container div p {
+  font-size: 1.3em;
+  color: var(--isseus-color);
+}
+/*# sourceMappingURL=error.style.css.map */
